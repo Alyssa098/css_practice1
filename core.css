@@ -6,14 +6,33 @@ html {
 }
 
 #container{
-  width: 1000px;
+  width: 100%;
+  margin: 0 auto 0 auto;
 }
 
 header{
-  background: ;
+  background: #333;
+  color: #FFF;
 }
 
 #title{
   background: #000;
+  color: #FFF;
 }
 
+#top_links{
+  background: #333;
+  color: #FFF;
+}
+
+#top_links li{
+  display: inline-block;
+}
+
+#main{
+  background-image: url('./images/core-iphone-mobile_banking.jpg');
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position: center;
+  height: 525px;
+}
