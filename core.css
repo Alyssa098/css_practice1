@@ -8,25 +8,56 @@ html {
 #container{
   width: 100%;
   margin: 0 auto 0 auto;
+  position: relative;
 }
 
 header{
-  background: #333;
+  background: #222;
   color: #FFF;
+  height: 40px;
+}
+
+header li{
+  display: inline-block;
 }
 
 #title{
   background: #000;
   color: #FFF;
+  height: 110px;
 }
 
 #top_links{
-  background: #333;
+  background: #222;
   color: #FFF;
+  height: 50px;
+  position:relative;
+}
+
+#top_links ul{
+  margin: 0 0;
 }
 
 #top_links li{
   display: inline-block;
+}
+
+#top_links #personal{
+  position: absolute;
+  top: 15px;
+  left: 20%;
+}
+
+#top_links #business{
+  position: absolute;
+  top: 15px;
+  left: 45%;
+}
+
+#top_links #real_estate{
+  position: absolute;
+  top: 15px;
+  left: 70%;
 }
 
 #main{
