@@ -30,7 +30,7 @@ header li{
 }
 
 #title a{
-  font-family: arial;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 300%;
   letter-spacing: 15px;
 }
@@ -48,8 +48,9 @@ header li{
 
 #top_links li{
   display: inline-block;
-  font-family: arial;
+  font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 5px;
+  font-size: 110%;
 }
 
 #top_links #personal{
@@ -76,6 +77,39 @@ header li{
   background-repeat: no repeat;
   background-position: center;
   height: 525px;
+  color: #FFF;
+  text-align: center;
+  padding-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  position:relative;
+}
+
+.mobile_banking{
+  font-size: 550%;
+  font-weight: 900;
+  letter-spacing: 15px;
+}
+
+#now_you{
+  font-size: 250%;
+  letter-spacing: 10px;
+}
+
+#anywhere{
+  font-size: 300%;
+  font-style: oblique;
+}
+
+#learn_more{
+  background: #000;
+  width: 250px;
+  height: 50px;
+  border-radius: 20%;
+  padding-top: 15px;
+  position: absolute;
+  left: 40%;
+  top: 425px;
+  letter-spacing: 5px;
 }
 
 #icons{
