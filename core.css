@@ -32,6 +32,7 @@ header li{
 #title a{
   font-family: arial;
   font-size: 300%;
+  letter-spacing: 15px;
 }
 
 #top_links{
@@ -47,12 +48,14 @@ header li{
 
 #top_links li{
   display: inline-block;
+  font-family: arial;
+  letter-spacing: 5px;
 }
 
 #top_links #personal{
   position: absolute;
   top: 15px;
-  left: 17%;
+  left: 17%; 
 }
 
 #top_links #business{
@@ -111,4 +114,10 @@ header li{
   left: 65%;
   text-align: center;
   border-radius: 3%;
+}
+
+footer{
+  height: 150px;
+  color: #FFF;
+  background: #000;
 }
